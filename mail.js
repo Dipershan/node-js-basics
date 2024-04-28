@@ -1,4 +1,5 @@
 require("dotenv").config();
+const { configDotenv } = require("dotenv");
 const nodemailer = require("nodemailer");
 
 const transporter = nodemailer.createTransport({
@@ -38,3 +39,15 @@ main({
 //sent images as html content
 
 //  console.log(process.env.GMAIL_USERNAME)
+
+//Write a node js module to encrypt and verify the password using bcryptjs
+//encryptPassword(string):string
+//verifyPassword(hashPw , Password): boolean
+ 
+//Write a node js module to create and verify jwtToken using jsonwebToken
+//createToken():string
+//verify:boolean
+
+/**
+ * 
+ */

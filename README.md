@@ -9,3 +9,8 @@ create index.js
 require package name
 use the package method following npm guide
 node index.js
+node mailer
+mail.js
+
+jwt.js
+bcrypt.js

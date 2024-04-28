@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "currency-converter-lt": "^2.0.1",
     "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
     "nodemailer": "^6.9.13",
     "pdfkit": "^0.15.0",
     "proper-upper-case": "^0.1.0",
